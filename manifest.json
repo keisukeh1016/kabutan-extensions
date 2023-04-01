@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "kabutan-extensions",
+  "version": "1.0",
+
+  "description": "株探に各種の便利機能を追加します。",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.kabutan.jp/*"],
+      "js": ["content_script.js"]
+    }
+  ]
+}
