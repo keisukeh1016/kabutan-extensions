@@ -3,7 +3,7 @@
   "name": "kabutan-extensions",
   "version": "1.0",
 
-  "description": "株探に各種の便利機能を追加します。",
+  "description": "株探を見やすくします。",
 
   "content_scripts": [
     {
